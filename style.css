@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
+
+:root {
+
+    --light-blue: #A0CCDA;
+    --eerie-black: #1F1F21;
+    --payne-gray: #596475;
+    --red-madder: #A51226;
+    --russian-violet: #0B0033;
+
+}
+
+body {
+
+    background-image: linear-gradient(
+
+        90deg,
+        var(--light-blue) 50%,
+        var(--eerie-black) 50%
+
+    );
+
+}
+
+.div_register {
+
+    position: absolute;
+    top: 9cm;
+    left: 7.5cm;
+    text-align: center;
+    color: var(--eerie-black);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.p_welcome, .p_login {
+    font-size: 4ch;
+}
+
+.p_second {
+    font-size: 2.2ch;
+}
+
+.p_third {
+    top: 2ch;
+    position: relative;
+    font-size: 2.2ch;
+}
+
+.img_mostrar0 {
+    top: 25.2ch;
+    right: 13ch;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.img_mostrar1 {
+    top: 16.2ch;
+    right: 3.7ch;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+input#cad_login {
+
+    width: 50%;
+    padding: 12px 16px;
+    border: 2px solid var(--payne-gray);
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+input#cad_pass {
+
+    position: relative;
+    top: 1px;
+    width: 50%;
+    padding: 12px 16px;
+    border: 2px solid var(--payne-gray);
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+input#txt_login {
+
+    width: 75%;
+    padding: 12px 16px;
+    border: 2px solid var(--payne-gray);
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+input#txt_pass {
+
+    position: relative;
+    top: 1px;
+    width: 75%;
+    padding: 12px 16px;
+    border: 2px solid var(--payne-gray);
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+input#cad_login::placeholder, input#cad_pass::placeholder, 
+input#txt_login::placeholder, input#txt_pass::placeholder {
+    color: var(--eerie-black);
+    font-size: 13.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn_register, .btn_delete {
+
+    position: relative;
+    color: var(--eerie-black);
+    padding: 15px;
+    width: 120pt;
+    top: 2ch;
+    border: 2px solid var(--eerie-black);
+    border-radius: 2pc;
+    background-color: var(--light-blue);
+    font-size: 2.2ch;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.btn_register:hover {
+
+    color: var(--light-blue);
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: var(--eerie-black);
+    box-shadow: var(--eerie-black) 2px 2px 16px 0px;
+
+}
+
+.btn_delete:hover {
+
+    color: var(--eerie-black);
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: var(--red-madder);
+    box-shadow: var(--red-madder) 2px 2px 16px 0px;
+
+}
+
+.div_login {
+
+    position: relative;
+    top: 9cm;
+    left: 35cm;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    color: var(--light-blue);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.btn_login {
+
+    position: relative;
+    color: var(--light-blue);
+    padding: 15px;
+    width: 120pt;
+    top: 2ch;
+    border: 2px solid var(--light-blue);
+    border-radius: 2pc;
+    background-color: var(--eerie-black);
+    font-size: 2.2ch;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.btn_login:hover {
+
+    color: var(--eerie-black);
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: var(--light-blue);
+    box-shadow: var(--light-blue) 2px 2px 16px 0px;
+
+}

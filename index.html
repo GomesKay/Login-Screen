@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tela de Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="div_register">
+        <p class="p_welcome">Bem Vindo para sua Tela de Login</p>
+        <p class="p_second">Caso não possua um cadastro segue abaixo</p>
+        <input type="text" id="cad_login" placeholder="Insira um nome de Usuário"><br>
+        <input type="password" id="cad_pass" placeholder="Insira sua senha"><img class="img_mostrar0" src="img/mostrar.png"><br>
+        <input type="button" class="btn_register" value="Cadastrar-se" onclick="cadastrar()">
+        <p class="p_third">Exclua seu cadastro no botão abaixo</p>
+        <input type="button" class="btn_delete" value="Excluir" onclick="excluir()">
+    </div>
+
+    <div class="div_login">
+        <p class="p_login">Faça o Login abaixo</p>
+        <input type="text" id="txt_login" placeholder="Login">
+        <input type="password" id="txt_pass" placeholder="Senha"><img class="img_mostrar1" src="img/mostrar.png">
+        <input type="button" class="btn_login" value="Entrar" onclick="entrar()">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
